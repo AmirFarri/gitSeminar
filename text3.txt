@@ -1,1 +1,20 @@
-text3 - hello world
+// Download / install / sign up / sign in => www.git-scm.com
+//                   /  www.github.com
+// enter the Folder
+git init                                          // 
+++++++++++++++++++++++++++++++++++++++++
+git config user.name "AmirFarri"
+git config user.email amirfarri@aol.com
+
++++++++++++++++++++++++++++++++++++++++++
+
+git status                                     //
+git add text1.txt                         //  add text1.txt file to Stage
+git add *                                      //
+git add text*                               //  add everything initialize with'text'
+git add -A                                    //  add all files to Stage
+git commit -m 'Message'         //  commit files which are on Stage, 'Message' will appear in Log
+git reset text1.txt                      //  exit from stage => untracked file
+git diff --staged                          //  tafavote vaziyate haal ba Stage
+git diff HEAD                              //  tafavote vaziyate haal ba HEAD , inja = Last commit
+git checkout --text1.txt            //  taghyirat ra az akharin commit kharej mikonad. bargard aghab
